@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "tela": "Tropical",
+        "precio": 1690
+    },
+    {
+        "id": 2,
+        "tela": "Bandera Gruesa",
+        "precio": 1920
+    },
+    {
+        "id": 3,
+        "tela": "Bandera Fina",
+        "precio": 1690
+    },
+    {
+        "id": 4,
+        "tela": "Tela propia",
+        "precio": 410
+    },
+    {
+        "id": 5,
+        "tela": "Papel para sublimar",
+        "precio": 280
+    }
+]

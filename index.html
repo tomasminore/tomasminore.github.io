@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="simulador">
+        <div class="div">
+            <form id="cotizarForm" class="form">
+                <h1>Arma tu presupuesto</h1>
+                <label for="" class="label">Ingrese la cantidad de metros:</label>
+                <input id="metrosInput" type="number" class="input">
+                <select name="telas" id="telaSeleccionada" class="input">
+                    <option value="0" selected>Elija tela...</option>
+                    <option value="Tropical">Tropical Mecanico</option>
+                    <option value="Gruesa">Bandera Gruesa</option>
+                    <option value="Fina">Bandera Fina</option>
+                    <option value="Propia">Voy a usar una tela propia</option>
+                    <option value="Papel">Solo necesito el papel para sublimar</option>
+                </select>
+                <div id="proteccion" class="specs"></div>
+                <div id="confeccion" class="specs"></div>
+                <div id="pleno" class="specs"></div>
+                <div id="corte" class="specs"></div>
+                <div id="mostrarResultado"></div>
+            </form>
+            <div class="fo">
+                <button id="btnAlert" class="boton">Alert</button>
+            </div>
+        </div>
+        <div id="lista">
+            <h2 class="tit">Lista de precios por metro</h2>
+        </div>
+    </div>
+    <div id="mostrar"></div>
+    <script src="./script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
